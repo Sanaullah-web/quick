@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+header{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px 13px;
+}
+.logo{
+
+    float: left;
+    width: 6%;
+}
+.logo img{
+
+    width: 100%;
+}
+nav{
+
+    float: right;
+    width: 28%;
+    overflow: hidden;
+}
+nav ul{
+
+    list-style: none;
+}
+nav ul li{
+
+    text-transform: capitalize;
+    float: left;
+    padding-left: 20px;
+}
+.content{
+
+    width: 65%;
+    margin: auto;
+    padding: 35px 0px;
+    text-align: center;
+}
+.content .text{
+
+    text-align: center;
+}
+.content .text h1{
+
+    color: #132C56;
+    font-size: 67px;
+    padding-bottom: 15px;
+}
+.content .text h1 strong{
+
+    color: #018BFF;
+    font-size: 67px;
+}
+.content .text p{
+
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+.content img{
+    margin-bottom: 30px;
+}
+.details{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.details .left {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.details .left h2 {
+    font-size: 40px;
+    color: #F25969;
+}
+.details .left p {
+    font-size: 18px;
+    color: #484545;
+}
+.details .right {
+    width: 48%;
+    float: right;
+}
+.details .right h2{
+    font-size: 35px;
+    color: #1B305C;
+}
+.item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.item1 {
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: #FDEAEC;
+    padding: 20px 30px;
+}
+.item2{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: #E9F9F4;
+    padding: 20px 30px;
+    margin-left: 5%;
+}
+.item3{
+    width: 25%;
+    float: right;
+    text-align: center;
+    background-color: #FFF8E8;
+    padding: 20px 30px;
+}
+.item1 img, .item2 img, .item3 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.item1 p, .item2 p, .item3 p{  
+    text-align: left;
+    color: #5E82A1;
+    margin-bottom: 40px;
+}
+.item1 h2, .item2 h2, .item3 h2{  
+    text-align: left;
+    color: #143271;
+    margin-bottom: 10px;
+}
+footer{
+    margin-bottom: 20px;
+    background-color: #008AFF;
+    height: 60px;
+    color: rgb(255, 255, 255);
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+}
+footer p span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
